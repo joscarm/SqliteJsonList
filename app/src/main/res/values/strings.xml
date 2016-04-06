@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">SqliteList</string>
+    <string name="action_update_network">Actualizar desde JSON</string>
+    <string name="action_exit">Salir</string>
+    <string name="action_add">Agregar...</string>
+    <string name="action_clear">Limpiar tabla</string>
+
+    <!-- http://stackoverflow.com/questions/1883425/android-borderless-dialog -->
+    <style name="Theme_Dialog_Translucent" parent="android:Theme.Holo.Dialog">
+    <!--"android:Theme.Dialog"-->
+        <item name="android:background" >@android:color/transparent<!--@color/addMiemb--></item>
+
+       <!-- <item name="android:windowBackground">@android:color/transparent</item>-->
+        <!--@android:color/transparent-->
+
+    </style>
+
+</resources>
